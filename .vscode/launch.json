@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Pyramid Explorer (Visual)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "visual",
+        "astar"
+      ],
+      "env": {
+        "PYTHONUTF8": "1"
+      }
+    },
+    {
+      "name": "Run Pyramid Explorer (Text)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "text",
+        "astar"
+      ],
+      "env": {
+        "PYTHONUTF8": "1"
+      }
+    }
+  ]
+}
