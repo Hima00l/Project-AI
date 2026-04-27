@@ -176,4 +176,3 @@ See exact package constraints in `requirements.txt`.
 ## License
 
 This project is intended for educational use.  
-Add a formal license file (`LICENSE`) if you plan to publish or distribute it broadly.
